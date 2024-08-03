@@ -2,6 +2,11 @@ package chp_1;
 
 import java.lang.Math;
 public class ChapterOne{
+
+    public static void main(String[] args){
+        compareInsertionSortWithMerge();
+        smallestValueOfN();
+    }
     /**
      * log2 N = loge N / loge 2
      *      Java doesn't have a native log2. To calculate log2 of N one must do this indirectly.
